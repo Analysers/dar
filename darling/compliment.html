@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .button {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+    
+        .button1 {background-color: #925790;} /* Green */
+        </style>
+<head>
+    <script src="js/slider-min.js" type="text/javascript">
+    </script> 
+    <title> For my darling... </title>
+    <link rel="icon" href="love.ico">
+    <meta charset="utf-8">
+</head>
+
+<script>
+function randomnum(){
+    
+    return Math.floor(Math.random() * 34);
+
+}
+
+function iltifat(){
+    const iltifatlar=["You are my world.", "You are mine.", "You are extremely beautiful.", "You are my little baby.", "You are beautiful and pure like an angel.", "You are my miracle.", 
+    "You are love of my life", "You're too perfect for this world ", "You are my biggest occasion.", "Life has no meaning without you, darling.",
+    "You are like a moonlight that lights my way as I walk in the dark of night.", "You are like a hope, who comes at the most desperate moment",
+    "You are like a sun born at the end of endless nights.", "You're like the first flower to sprout after fires", "You are like a miracle oasis in the desert",
+    "You're like a heart-warming kiss", "You are like the most beautiful rhymed poem.","You're like red wine aged at the high old times.",
+    "You're like the last cigarette in the pack.","My darling, you are incomparable, you are the greatest love in the world.","You're the only thing I'm longing for",
+    "I could not have guessed that there could be someone as wonderful as you in this world.","All the beauties of the world are gathered in you.",
+    "You deserve the best of everything.","Everyone gets knocked down sometimes, but you always get back up and keep going.","When i gets knocked down, you always back me up and insure me to keep going.",
+    "You are my life.","You are the reason of my achievements.","You are my future.","You are my hope to live.","You are such a wonderful gift that i can't deserve.",
+    "You are my reason to smile.","You are my biggest weakness."]
+
+    ind=randomnum();
+
+    document.getElementById("compliment").innerHTML= iltifatlar[ind]
+
+}
+
+</script>
+
+<body style="background-color:powderblue;">
+<br>
+<br>
+
+<div style="text-align: center;">
+<font face="Verdana"  >
+<b>
+Bütün iltifatları tek tek kendim yazdım sevgilim. Bazıları da senin bana söylediklerin.
+Bazılarını da sana yazdığım şiirlerden hatırlayacaksın &hearts;
+</b>
+<br>
+<br>
+<br>
+</font>
+</div>
+<div style="text-align: center;">
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zEJv7t9LGfU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+
+<b>
+    <font color="purple" id="compliment" face="Verdana"> 
+
+
+    </font>
+</b>
+<br>
+<br>
+    <button onclick="iltifat()" class="button button1"> Güzel bir söz için tıkla sevgilim &hearts;</button>
+
+</div>
+
+</body>
+
+                                                                                                 
+</html>
+
+
